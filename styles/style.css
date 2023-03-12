@@ -1,0 +1,65 @@
+.flex-conteiner{
+    display: flex;
+    flex-direction: column;
+    Width: 1280px;
+    Height: 720px;
+  }
+  header{
+    display: flex;
+    flex-basis: 20%;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 64px;
+    padding-left: 120px;
+    padding-right: 120px;
+  }
+  .logo{
+    Width: 106.59px;
+    Height: 22px;
+  }
+  .menu{
+    display: flex;
+    justify-content: space-between;
+    Width: 273.25px;
+    Height: 23px;
+  }
+  a{
+    text-decoration: none;
+    color: grey;
+    font-size: 16px;
+  }
+  main{
+    display: flex;
+    flex-grow: 1;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    margin-left: 120px;
+    margin-right: 120px;
+  }
+  .titel{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  button{
+    width: 169px;
+    height: 56px;
+    background-color: #69B99D;
+    color: white;
+    margin-top: 10px;
+    Padding:14px 32px 15px 32px;
+    border: none;
+  }
+  footer{
+    display: flex;
+    flex-basis: 20%;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+ address{
+  display: flex;
+  padding-left: 570px;
+  margin-top: 47px;
+  font-size: 16px;
+  font-family:Georgia, 'Times New Roman', Times, serif
+ }
