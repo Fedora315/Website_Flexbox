@@ -1,0 +1,83 @@
+.flex-conteiner {
+    display: flex;
+    flex-direction: column;
+    height: 800px;
+    width: 1400px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 27px;
+    font-weight: bolder;
+  }
+  header {
+    display: flex;
+    flex-basis: 15%;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(211, 205, 205, 0.724);
+  }
+  main {
+    display: flex;
+    flex-grow: 1;
+  }
+  .main_block {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    background-color:beige;
+  }
+  .titel{
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    flex-basis: 33%;
+  }
+  .under{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-basis: 25%;
+    margin: 20px;
+    
+  }
+  .section1{
+    display: flex;
+    padding: 20px;
+    background-color: rgba(246, 213, 172, 0.854);
+    justify-content: center;
+    align-items: center;
+    flex-basis: 43%;
+  }
+  .section2{
+    display: flex;
+    padding: 20px;
+    background-color: rgba(246, 213, 172, 0.854);
+    justify-content: center;
+    align-items: center;
+    flex-basis: 43%;
+  }
+  .section3{
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    margin:20px;
+    padding: 30px;
+    background-color: rgba(246, 213, 172, 0.854);
+  }
+  aside {
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+    flex-basis: 30%;
+    background-color: rgba(202, 224, 198, 0.763);
+  }
+  footer {
+    display: flex;
+    flex-basis: 25%;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(211, 205, 205, 0.724);
+  }
+  .footer_element {
+    background-color: rgb(255, 255, 255);
+    padding: 50px;
+  }
